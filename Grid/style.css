@@ -1,0 +1,71 @@
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+
+
+*{
+     box-sizing: border-box;
+}
+
+.container{
+     display: grid;
+     grid-template-columns: 280px 280px 280px;
+     justify-content: center;
+     margin-top: 10%;
+}
+
+.box-1 {
+     background: hsl(31, 77%, 52%);
+     height: 50vh;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+}
+.box-2 {
+     background: hsl(184, 100%, 22%);
+     height: 50vh;
+}
+.box-3 {
+     background: hsl(179, 100%, 13%);
+     height: 50vh;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+}
+
+.btn {
+     position: relative;
+     margin-top: 50px;
+     font-family: 'Lexend Deca';
+     margin-left: 20px;
+     border: 3px solid hsla(0, 0%, 100%, 0.75);
+     border-radius: 20px;
+     color: hsl(0, 0%, 95%);
+     height: 45px;
+     justify-content: center;
+     width: 120px;
+     background-color: transparent;
+     background-repeat: no-repeat;
+     cursor: pointer;
+}
+
+.icons {
+     position: absolute;
+     min-height: 50px;
+     margin-top: 40px;
+     margin-left: 40px;
+     z-index: 100;
+}
+
+.txt-cont {
+     margin: 90px 40px 30px 40px;
+     position: relative;
+     color: hsl(0, 0%, 95%);;
+}
+.inset {
+     text-transform: uppercase;
+     font-weight: 700;
+     font-family: 'Big Shoulder Display', sans-serif;
+     font-size: 25px;
+}
+
+.text {
+     font-family: 'Lexend Deca';
+     font-size: 11px;
+}

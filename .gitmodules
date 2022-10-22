@@ -1,0 +1,3 @@
+[submodule "songcrud"]
+	path = songcrud
+	url = https://github.com/Luthern010/songcrud
